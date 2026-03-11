@@ -17,12 +17,5 @@ namespace UAHighschool
             }
             return _instance;
         }
-
-        static void Main(string[] args)
-        {
-            Highschool school = Highschool.GetSchoolInstance();
-            school.schoolName = "UA High School";
-            Console.WriteLine("School Name: " + school.schoolName);
-        }
     }
 }
